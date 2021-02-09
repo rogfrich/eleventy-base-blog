@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+Hi, I'm Rich. I'm learning JAMstack.
