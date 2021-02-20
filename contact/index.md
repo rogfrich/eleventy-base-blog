@@ -7,6 +7,13 @@ eleventyNavigation:
   order: 5
 ---
 
+<figure class="figure">
+  <img src="../img/contact.jpg" class="img-fluid" alt="A pen and paper">
+  <figcaption class="figure-caption">
+Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/contact?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>  </figcaption>
+</figure>
+
+
 <form name="contact" method="POST" data-netlify="true">
   
   <!-- Name -->
