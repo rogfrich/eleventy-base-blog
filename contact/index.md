@@ -12,13 +12,13 @@ eleventyNavigation:
   <!-- Name -->
   <div class="mt-4 mb-4">
     <label class="form-label" for="name" >Your Name:</label>
-    <input type="text" class="form-control" id="name"  name="name" placeholder="Enter your name">
+    <input type="text" class="form-control" id="name"  name="name" placeholder="Enter your name" required>
   </div>
   
   <!-- Email -->
   <div class="mb-4">
     <label class="form-label" for="email">Your Email:</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
   </div>
   
   <!-- Role -->
