@@ -50,6 +50,13 @@ Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_
   </p>
 
 
+  <p>
+    <input class="form-check-input" type="checkbox" value="" id="mc" name="mc">
+    <label class="form-check-label" for="mc">
+      I consent to marketing communications
+    </label>
+  </p>
+
 </div>
 
 
