@@ -16,28 +16,22 @@ Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_
 
 <form name="contact" method="POST" data-netlify="true">
   
-  <!-- Name -->
+  <!-- First name -->
   <div class="mt-4 mb-4">
-    <label class="form-label" for="name" >Your Name:</label>
-    <input type="text" class="form-control" id="name"  name="name" placeholder="Enter your name" required>
+    <label class="form-label" for="firstname" >First name:</label>
+    <input type="text" class="form-control" id="firstname"  name="firstname" placeholder="Enter your first name" required>
   </div>
   
-  <!-- Email -->
-  <div class="mb-4">
-    <label class="form-label" for="email">Your Email:</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+  <!-- Surname -->
+  <div class="mt-4 mb-4">
+    <label class="form-label" for="surname" >Surname:</label>
+    <input type="text" class="form-control" id="surname"  name="surname" placeholder="Enter your surname" required>
   </div>
-  
-  <!-- Role -->
+
+  <!-- Email address -->
   <div class="mb-4">
-    <label class="form-label" for="role">Your Role:</label>
-    <select class="form-select" id="role" name="role[]" multiple>
-        <option value="leader">Leader</option>
-        <option value="follower">Follower</option>
-    </select>
-  <div id=roleHelpText class="form-text">
-      Choose as many as apply
-    </div>
+    <label class="form-label" for="email">Your email address:</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
   </div>
   
   <!-- Message -->
