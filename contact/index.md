@@ -39,7 +39,20 @@ Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_
     <label class="form-label" for="message">Your Message:</label>
     <textarea class="form-control" id="message" name="message" placeholder="Enter your message" required></textarea>
   </div>
-  
+
+  <!-- T&Cs -->
+<div class="form-check mb-4">
+  <p>
+    <input class="form-check-input" type="checkbox" value="" id="terms" name="terms" required>
+    <label class="form-check-label" for="terms">
+      I have read and agree to the terms and conditions
+    </label>
+  </p>
+
+
+</div>
+
+
   <!-- Submit -->
   <button class="btn btn-primary" type="submit">Send</button>
 
