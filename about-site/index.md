@@ -1,8 +1,9 @@
 ---
-layout: layouts/home.njk
-permalink: /newpage/
+layout: layouts/post.njk
+title: About This Site
+templateClass: tmpl-post
 eleventyNavigation:
-  key: About this site
+  key: About This Site
   order: 4
 ---
 
