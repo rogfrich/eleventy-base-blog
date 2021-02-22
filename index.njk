@@ -12,24 +12,25 @@ eleventyNavigation:
     on
     <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
   </figcaption>
+</figure>
 
-  <h1 class="display-1 text-center mt-3">Welcome to my blog!</h1>
+<h1 class="display-1 text-center mt-3">Welcome to my blog!</h1>
 
-  <p class="mt-3">
-    This is the blog I'm creating for the
-    <a href="https://thecodersguild.org.uk/blog/learn-web-and-app-development-with-the-jamstack/">Coder's Guild JAMstack Bootcamp</a>.
-  </p>
-  {% set maxPosts = collections.posts.length | min(3) %}
-  <h2>Latest
-    {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }}
-      Posts{% endif %}
-  </h2>
-  <div class="mt-3">
+<p class="mt-3">
+  This is the blog I'm creating for the
+  <a href="https://thecodersguild.org.uk/blog/learn-web-and-app-development-with-the-jamstack/">Coder's Guild JAMstack Bootcamp</a>.
+</p>
+{% set maxPosts = collections.posts.length | min(3) %}
+<h2>Latest
+  {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }}
+    Posts{% endif %}
+</h2>
+<div class="mt-3">
 
-    {% set postslist = collections.posts | head(-3) %}
-    {% set postslistCounter = collections.posts | length %}
-    {% include "postslist.njk" %}
-  </div>
+  {% set postslist = collections.posts | head(-3) %}
+  {% set postslistCounter = collections.posts | length %}
+  {% include "postslist.njk" %}
+</div>
 
-  <p>More posts can be found in
-    <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>More posts can be found in
+  <a href="{{ '/posts/' | url }}">the archive</a>.</p>
