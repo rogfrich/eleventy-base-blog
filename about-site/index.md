@@ -36,3 +36,10 @@ eleventyNavigation:
   <li>HTML forms and processing them with
     <a href="https://www.netlify.com/products/forms/">Netlify Forms</a>
   </li>
+  </ul>
+
+
+
+  <p>
+  The source code for this site is <a href="https://github.com/rogfrich/eleventy-base-blog">available on GitHub</a>. It was forked from the official <a href="https://github.com/11ty/eleventy-base-blog">Eleventy base-blog</a> repo. 
+  </p>
