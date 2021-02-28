@@ -6,16 +6,6 @@ eleventyNavigation:
   key: Tips
   order: Latest
 ---
-<!-- <form>
-<input id="test">
-</form>
-<button onclick=test()>Click me</button>
-<script>
-    function test() {
-        var inputText = document.getElementById("test").value;
-        alert(inputText);
-        };
-</script> -->
 
 
 <div class="form-group mt-3">
