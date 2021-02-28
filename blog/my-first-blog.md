@@ -8,7 +8,7 @@ rating: 5
 ---
 This is my first blog post using NetlifyCMS! Hooray! 
 
-The picture is a random one from [Lorem Picsum](https://picsum.photos).  
+The picture is a random one from [Lorem Picsum](https://picsum.photos).  It changes each time you reload the page.
 
 Here is some random text from the [Cricket Ipsum](https://rogfrich.pythonanywhere.com) site I made a while ago.
 
