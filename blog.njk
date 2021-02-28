@@ -5,10 +5,11 @@ eleventyNavigation:
   key: Blog
   order: Latest
 title: Blog list
+date: Created
 ---
 
 <h1>{{title}}</h1>
 
 {% for blogpost in collections.blog %}
     <a href="{{blogpost.url}}">{{blogpost.data.title}}</a>
-    {% endfor%}
+{% endfor %}
