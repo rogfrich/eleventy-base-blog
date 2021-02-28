@@ -20,11 +20,11 @@ eleventyNavigation:
 
 <div class="form-group mt-3">
     <label class="form-label" for="billTotal">Bill total</label>
-    <input class="form-control" id="billTotal">
+    <input type="number" class="form-control" id="billTotal" required>
 </div>
 <div class="form-group mt-3">
     <label class="form-label">Tip percentage</label>
-    <input class="form-control" id="tipPercentage">
+    <input type="number" class="form-control" id="tipPercentage" required>
 </div>
 <button class="btn btn-primary mt-3" onclick=calculateTip()>Calculate Tip</button>
 
