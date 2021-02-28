@@ -3,7 +3,7 @@ layout: blog
 tags: blog
 title: My first blog
 date: 2021-02-28T12:09:16.947Z
-thumbnail: https://picsum.photos/3000/2000
+thumbnail: https://picsum.photos/600/400
 rating: 5
 ---
 This is my first blog post using NetlifyCMS! Hooray! 
