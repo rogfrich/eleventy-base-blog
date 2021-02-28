@@ -7,6 +7,6 @@ templateClass: tmpl-blog
   <span style="font-weight: bold;">Rating:</span>
   {{ rating }}
 </p>
-{{ content | safe }}
 
-<img src="{{ thumbnail | url }}"/>
+<img src="{{ thumbnail | url }}" class="img-fluid"/>
+{{ content | safe }}
